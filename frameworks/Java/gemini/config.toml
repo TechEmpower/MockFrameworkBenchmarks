@@ -1,9 +1,9 @@
 [framework]
 name = "Gemini"
-authors = ["Brian Hauer <bhauer@techempower.com>", "Mike Smith <msmith@techempower.com>"]
+authors = ["TechEmpower <dev@techempower.com>"]
 github = "https://github.com/TechEmpower/gemini"
 
-[default]
+[main]
 urls.json = "/json"
 urls.plaintext = "/plaintext"
 approach = "Realistic"
@@ -19,7 +19,6 @@ urls.query = "/query?queries="
 urls.cached_query = "/cached_query?queries="
 urls.fortune = "/fortunes"
 urls.update = "/update?queries="
-port = 8080
 approach = "Realistic"
 classification = "Fullstack"
 database = "MySQL"
@@ -37,7 +36,6 @@ urls.query = "/query?queries="
 urls.cached_query = "/cached_query?queries="
 urls.fortune = "/fortunes"
 urls.update = "/update?queries="
-port = 8080
 approach = "Realistic"
 classification = "Fullstack"
 database = "Postgres"
@@ -46,5 +44,4 @@ platform = "Servlet"
 webserver = "Resin"
 os = "Linux"
 database_os = "Linux"
-database_port = 5432
 versus = "servlet"
